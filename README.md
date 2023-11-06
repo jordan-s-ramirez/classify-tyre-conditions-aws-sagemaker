@@ -1,6 +1,6 @@
 # Classify Tyre Conditions with AWS SageMaker 
 
-![Tyre Condition Classifier](img1.png)
+![Tyre Condition Classifier](img1.jpg)
 
 ## Introduction
 
