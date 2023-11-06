@@ -1,6 +1,6 @@
-# AWS SageMaker and TensorFlow Tyre Condition Classifier
+# Classify Tyre Conditions with AWS SageMaker 
 
-![Tyre Condition Classifier](img1)
+![Tyre Condition Classifier](img1.png)
 
 ## Introduction
 
