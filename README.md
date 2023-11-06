@@ -10,8 +10,8 @@ This repository provides a solution for classifying the condition of tires using
 
 - [Prerequisites](#prerequisites)
 - [Dataset](#dataset)
-- [Setup](#setup)
 - [Inference](#inference)
+- [Training Model](#training-model)
 - [Model Evaluation](#model-evaluation)
 - [Deploying the Model](#deploying-the-model)
 - [References](#references)
@@ -30,5 +30,6 @@ Before getting started, ensure you have the following prerequisites in place:
 
 The tire condition dataset consists of images of tires in various conditions: good, fair, and poor. You can obtain this dataset from [Kaggle](https://www.kaggle.com/datasets/warcoder/tyre-quality-classification). The dataset is organized as the same structure used for and AWS image classifcation dataset.
 
-## Training
+## Training Model
 
+This model was trained using [Swin Transformer model](https://tfhub.dev/sayakpaul/swin_base_patch4_window7_224/1) pre-trained on ImageNet-21k (14 million images, 21,841 classes) at resolution 224x224, suitable for off-the-shelf classification.
