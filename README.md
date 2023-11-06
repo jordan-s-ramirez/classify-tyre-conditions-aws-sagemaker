@@ -10,7 +10,6 @@ This repository provides a solution for classifying the condition of tires using
 
 - [Prerequisites](#prerequisites)
 - [Dataset](#dataset)
-- [Inference](#inference)
 - [Training Model](#training-model)
 - [Model Evaluation](#model-evaluation)
 
