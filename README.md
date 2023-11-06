@@ -13,8 +13,6 @@ This repository provides a solution for classifying the condition of tires using
 - [Inference](#inference)
 - [Training Model](#training-model)
 - [Model Evaluation](#model-evaluation)
-- [Deploying the Model](#deploying-the-model)
-- [References](#references)
 
 ## Prerequisites
 
@@ -36,3 +34,4 @@ This model was trained using [Swin Transformer model](https://tfhub.dev/sayakpau
 
 ## Model Evaluation
 ![Training Chart](./readMeImages/chart_image.png)
+Training 6 models with different learning rates, we can see all of the models achieved a validation accuracy of around 95%. A computer vision image classification model with a validation accuracy of 95% is already quite impressive, indicating that the model is doing a good job at correctly classifying images. However, there is always room for improvement. For instance, we can apply data augmentation techniques like rotation, scaling, and flipping to artificially increase the variety of training samples. This can help the model become more robust to different image variations.
