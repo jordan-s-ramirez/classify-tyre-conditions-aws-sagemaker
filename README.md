@@ -35,4 +35,4 @@ The tire condition dataset consists of images of tires in various conditions: go
 This model was trained using [Swin Transformer model](https://tfhub.dev/sayakpaul/swin_base_patch4_window7_224/1) pre-trained on ImageNet-21k (14 million images, 21,841 classes) at resolution 224x224, suitable for off-the-shelf classification.
 
 ## Model Evaluation
-![Training Chart](./readMeImages/chart_image.PNG)
+![Training Chart](./readMeImages/chart_image.png)
