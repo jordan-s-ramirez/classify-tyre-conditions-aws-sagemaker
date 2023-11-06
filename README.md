@@ -32,7 +32,7 @@ The tire condition dataset consists of images of tires in various conditions: go
 
 ## Training Model
 
-This model was trained using [Swin Transformer model](https://tfhub.dev/sayakpaul/swin_base_patch4_window7_224/1) pre-trained on ImageNet-21k (14 million images, 21,841 classes) at resolution 224x224, suitable for off-the-shelf classification.
+This model was trained using [Swin Transformer model](https://tfhub.dev/sayakpaul/swin_base_patch4_window7_224/1) pre-trained on ImageNet-21k (14 million images, 21,841 classes) at resolution 224x224, suitable for off-the-shelf classification. The "Swin-Base-Patch4-Window7-224" computer vision model is a moderately sized Swin Transformer architecture that processes input images divided into non-overlapping 4x4 pixel patches, uses a 7x7 window for self-attention, and is designed to work with images of 224x224 pixels. This model is suitable for various computer vision tasks and has demonstrated strong performance in the field of deep learning-based image analysis.
 
 ## Model Evaluation
 ![Training Chart](./readMeImages/chart_image.png)
